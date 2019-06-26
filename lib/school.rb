@@ -26,7 +26,7 @@ class School
   
   def sort
     roster.collect do |grade, student|
-      student.sort 
+      [grade][student].sort.flatten 
     end 
   end 
     
