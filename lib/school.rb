@@ -15,7 +15,7 @@ class School
     roster = {}
   end 
   
-  def add_student(grade, name)
+  def add_student(name, grade)
     roster[grade] = []
     binding.pry
    
