@@ -30,6 +30,7 @@ class School
       sorted[grade] = student.sort
       #binding.pry
     end 
+    sorted
   end 
     
   
