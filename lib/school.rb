@@ -16,8 +16,8 @@ class School
   end 
   
   def add_student(name, grade)
-    roster[:name] = grade 
-    binding.pry
+    roster[:grade] = name 
+    #binding.pry
   end 
     
   
