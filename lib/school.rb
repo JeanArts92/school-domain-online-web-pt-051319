@@ -25,6 +25,7 @@ class School
   end 
   
   def sort
+    sorted = {}
     roster.collect do |grade, student|
       binding.pry
     end 
