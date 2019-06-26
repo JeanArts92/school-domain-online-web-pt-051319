@@ -18,6 +18,7 @@ class School
   def add_student(name, grade)
     hash = {}
     hash[grade] = name
+    hash
     
     #binding.pry
   end 
