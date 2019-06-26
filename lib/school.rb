@@ -16,8 +16,8 @@ class School
   end 
   
   def add_student(name, grade)
-    roster[name] = []
-    roster[grade] << name 
+    roster[new] = []
+    roster[new] << name 
     binding.pry
    
   end 
