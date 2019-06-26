@@ -19,8 +19,8 @@ class School
     hash[grade] = []
     hash[grade] << name 
  
-hash
- => {grade =>[name]}
+    hash
+      => {grade =>[name]}
    
   end 
     
