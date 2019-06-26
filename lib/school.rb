@@ -20,7 +20,7 @@ class School
   end 
   
   def grade(grade)
-    grade[name]
+    binding.pry
   end 
     
   
