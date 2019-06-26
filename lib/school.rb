@@ -17,7 +17,7 @@ class School
   
   def add_student(name, grade)
     hash[grade] = []
-    hash[grade] << [name]
+    hash[grade] << name
     
     
     #binding.pry
