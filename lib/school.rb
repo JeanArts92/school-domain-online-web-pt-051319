@@ -20,7 +20,7 @@ class School
     roster[grade] << name
     
     
-    #binding.pry
+    binding.pry
   end 
     
   
