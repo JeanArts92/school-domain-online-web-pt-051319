@@ -18,7 +18,7 @@ class School
   def add_student(name, grade)
     roster[new] = []
     roster[new] << name 
-    roster => {grade => name}
+    
     #binding.pry
    
   end 
