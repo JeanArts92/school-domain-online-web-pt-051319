@@ -19,7 +19,7 @@ class School
     roster[grade] = []
     
     
-   
+   binding.pry
   end 
     
   
