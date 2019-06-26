@@ -1,7 +1,7 @@
 require 'pry' 
 
 class School 
-  attr_accessor :name, ro 
+  attr_accessor :name
   
   
   
