@@ -20,7 +20,7 @@ class School
     hash[grade] = [name]
     
     
-    binding.pry
+    #binding.pry
   end 
     
   
