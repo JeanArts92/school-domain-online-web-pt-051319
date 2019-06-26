@@ -23,6 +23,12 @@ class School
     roster[grade]
     #binding.pry
   end 
+  
+  def sort
+    roster.collect do |grade, student|
+      student.sort 
+    end 
+  end 
     
   
 end 
